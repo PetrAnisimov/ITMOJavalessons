@@ -73,5 +73,6 @@ public class FirstLesson {
         int res = start > end ? end - start:0; //возвращает результат в зависимовти от условия, если до ? вернет значение true если false то после :
         System.out.println(res);
 
+
     }
 }
