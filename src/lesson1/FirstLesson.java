@@ -1,3 +1,5 @@
+package lesson1;
+
 public class FirstLesson {
     public static void main(String[] args) {
         System.out.println("Info for console");
@@ -72,7 +74,5 @@ public class FirstLesson {
         int start = 3, end = 5000;
         int res = start > end ? end - start:0; //возвращает результат в зависимовти от условия, если до ? вернет значение true если false то после :
         System.out.println(res);
-
-
     }
 }
